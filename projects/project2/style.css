@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "work sans";
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 150px;
+    gap: 70px;
+
+}
+
+#left {
+    height: 100%;
+    width: 48%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+#left h1 {
+    font-size: 145px;
+    font-weight: 450;
+    line-height: 155px;
+    font-family: work sans;
+
+}
+
+#bottom-left {
+    width: 100%;
+    height: 40%;
+    /* background-color: green; */
+}
+
+#color {
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
+
+#color1 {
+    height: 20px;
+    width: 20px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+#color2 {
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+#color h5 {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+
+}
+
+#left h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#left p {
+    font-size: 20px;
+    width: 60%;
+    font-weight: 600;
+    color: rgb(75, 70, 70);
+    line-height: 25px;
+}
+
+#right {
+    height: 90%;
+    width: 33%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#right-top {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+
+#right-top h4 {
+    font-size: 30px;
+    font-family: work sans;
+    font-weight: 500;
+}
+
+#right-top h5 {
+    font-size: 16px;
+
+}
+
+#right-top h5 i {
+    color: gold;
+}
+
+#right img {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+}
+
+#black-sphere {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(104, 102, 102);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    transition: background-color 0.3s ease;
+}
+
+#black-sphere:hover {
+    cursor: pointer;
+    background-color: black;
+
+}
+#black-sphere h5{
+    font-weight: 500;
+    font-size: 15px;
+}
+#rotated {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 30px;
+    font-weight: 500;
+    left: -5%;
+}
